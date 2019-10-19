@@ -6,6 +6,10 @@ var db = mongojs('todo', ['tasks']);
 
 var bodyParser = require('body-parser');
 
+var cors = require('cors');
+
+app.use(cors());
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
