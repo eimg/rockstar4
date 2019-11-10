@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     }
 });
 
-const api = 'http://192.168.43.61:8000/tasks';
+const api = 'http://192.168.100.6:8000/tasks';
 
 const TaskItem = props => (
     <View style={styles.item}>

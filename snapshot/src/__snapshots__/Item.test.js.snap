@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item Component 1`] = `
+<li>
+  Apple
+   ($
+  2.99
+  )
+</li>
+`;
